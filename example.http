@@ -1,0 +1,21 @@
+GET http://localhost:5130
+
+###
+GET http://localhost:5130/game
+
+###
+GET http://localhost:5130/game/2
+
+###
+DELETE http://localhost:5130/game/3
+
+###
+POST http://localhost:5130/game
+Content-Type: application/json
+
+{
+    "name": "Carrillo",
+    "genreId": 2,
+    "price": 19.68,
+    "releaseDate": "2024-10-07"
+}
